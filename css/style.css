@@ -47,16 +47,16 @@ p{
 iframe{
     border-radius: 12px;
     width: 100%;
-    height: 80%;
+    height: 40%;
     border: none;
 }
 .heart1{
-    padding: 40px 10px 0 20px;
+    padding: 40px 10px 0 30px;
     display: flex;
     align-items: start;
 }
 .heart2{
-    padding: 0 20px 20px 30px;
+    padding: 0 20px 20px 20px;
     display: flex;
     align-items: end;
 }
@@ -87,6 +87,10 @@ iframe{
     }
     #text{
         font-size: 150%;
+    }
+    iframe{
+        width: 100%;
+        height: 80%;
     }
 }
 
