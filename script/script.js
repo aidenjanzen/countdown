@@ -19,7 +19,7 @@ var x = setInterval(function () {
     if (days < 61 && days > 59){
         document.getElementById("text").innerHTML = "two months left! she loves you "
     }
-    else if (days < 30 && days > 27) {
+    else if (days < 30 && days > 25) {
         document.getElementById("text").innerHTML = "one month left, feels like no time at all!"
     }
     else if (days < 21 && days > 19){
