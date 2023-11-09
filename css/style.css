@@ -38,10 +38,10 @@ p{
     padding: 10px 0 10px 0;    
 }
 #heart1{
-    width: 100px;
+    width: 90px;
 }
 #heart2{
-    width: 100px;
+    width: 90px;
 
 }
 
@@ -64,6 +64,7 @@ iframe{
 }
 .embed{
     display: flex;
+    width: 100%; /*check this*/
     height: 80%;
     text-align: center;
     flex-direction: column;
