@@ -2,6 +2,10 @@
     font-family: "Circular";
     src: url(../fonts/CircularStd-Black.otf) format("opentype");
 }
+.textspace{
+    font-variant-numeric: tabular-nums;
+    font-family: "Circular";
+}
 *{
     margin: 0%;
     padding: 0%;
@@ -30,7 +34,7 @@ p{
     height: auto;
 } 
 #demo{
-    font-size: 280%;
+    font-size: 230%;
     padding: 10px 0 0 0;
 }
 #text{

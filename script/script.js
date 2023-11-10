@@ -14,7 +14,7 @@ var x = setInterval(function () {
     var minutes = Math.floor((timeUntil % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((timeUntil % (1000 * 60)) / 1000);
 
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s "; //puts the script into the <P> with the id demo
+    document.getElementById("demo").innerHTML = String(days).padStart(2, '0') + ":" + String(hours).padStart(2, '0') + ":" + String(minutes).padStart(2, '0') + ":" + String(seconds).padStart(2, '0'); //puts the script into the <P> with the id demo
     
     if (days < 61 && days > 59){
         document.getElementById("text").innerHTML = "two months left! she loves you "
