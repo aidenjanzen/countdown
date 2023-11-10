@@ -34,12 +34,12 @@ p{
     height: auto;
 } 
 #demo{
-    font-size: 230%;
+    font-size: 280%;
     padding: 10px 0 0 0;
 }
 #text{
     font-size: 100%;
-    padding: 10px 0 10px 0;    
+    padding: 0 0 10px 0;    
 }
 #heart1{
     width: 90px;
