@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function(){
 var countDownDate = new Date("Dec 4, 2023 19:25:00").getTime();
 
 var x = setInterval(function () {
@@ -49,3 +50,4 @@ var x = setInterval(function () {
     }
 
 }, 1000);
+})
