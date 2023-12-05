@@ -94,6 +94,7 @@ iframe{
     }   
     main{
         width: 50%;
+        height: 100%;
         padding-top: 5%;
         flex-direction: row;
     }
