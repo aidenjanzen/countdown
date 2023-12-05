@@ -50,4 +50,19 @@ var x = setInterval(function () {
     }
 
 }, 1000);
+
+var cursor = document.getElementById("cursor");
+document.body.addEventListener("mousemove", function(e) {   
+    cursor.style.left = e.clientX + "px",
+    cursor.style.top = e.clientY + "px";
+});
+
+var iframe = document.querySelector("iframe");
+iframe.addEventListener("mouseover", function() {
+    cursor.style.display = 'none';
+  })
+iframe.addEventListener("mouseleave", function() {
+    cursor.style.display = 'block';
 })
+
+});
