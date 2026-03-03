@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
-var countDownDate = new Date("Dec 6, 2023 20:38:00").getTime();
+var countDownDate = new Date("May 23, 2026 13:00:00").getTime();
 
 var x = setInterval(function () {
 
@@ -21,7 +21,7 @@ var x = setInterval(function () {
         document.getElementById("text").innerHTML = "one month left, feels like no time at all!"
     }
     else if (days < 21 && days > 19){
-        document.getElementById("text").innerHTML = "three weeks left, she's coming back to you "
+        document.getElementById("text").innerHTML = "three weeks left, she's running to you "
     }
     else if (days < 14 && days > 12){
         document.getElementById("text").innerHTML = "two weeks left, almost there! "
@@ -46,7 +46,7 @@ var x = setInterval(function () {
     }   
     else if (timeUntil < 0) {
         clearInterval(x);
-        document.getElementById("text").innerHTML = "my baby is coming home \u2661";
+        document.getElementById("text").innerHTML = "you may kiss the bride \u2661";
     }
 
 }, 1000);
